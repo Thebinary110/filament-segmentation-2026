@@ -1,0 +1,28 @@
+# Competition data: not redistributable (Kaggle competition license)
+data/
+*.zip
+
+# Environments
+.venv-gbm/
+.venv-rfdetr/
+__pycache__/
+*.pyc
+
+# Large / regenerable artefacts: weights, prediction caches, images, datasets, runs
+*.pt
+*.pth
+*.ckpt
+*.pkl
+*.npz
+
+# work/: keep only small, human-readable outputs
+work/*
+!work/analysis/
+work/analysis/*
+!work/analysis/*.md
+!work/analysis/*.csv
+!work/report_figs/
+!work/tune*.json
+!work/params_*.json
+!work/gbm_scorer_val.json
+!work/rfdetr_decision.json

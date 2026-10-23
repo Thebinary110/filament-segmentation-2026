@@ -1,0 +1,10 @@
+# .venv-gbm: LightGBM keep-scorer only (src/instance_scorer.py). python3 -m venv .venv-gbm && .venv-gbm/bin/pip install -r envs/requirements-gbm.txt
+lightgbm==4.7.0
+narwhals==2.27.1
+numpy==2.5.4
+opencv-python-headless==5.0.0.93
+pandas==3.0.6
+pycocotools==2.0.11
+python-dateutil==2.9.0.post0
+scipy==1.18.1
+six==1.17.0

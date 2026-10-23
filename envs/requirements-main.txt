@@ -1,0 +1,12 @@
+# Main environment: system Python 3.12.3 (aarch64, NVIDIA GB10, CUDA 13.0), packages in the user site.
+# torch / torchvision are the CUDA 13.0 builds; install them from the PyTorch index for your platform first.
+torch==2.14.0
+torchvision==0.29.0
+ultralytics==8.4.156
+numpy==2.5.3
+opencv-python==5.0.0.93
+pycocotools==2.0.11
+pandas==3.0.6
+matplotlib==3.11.2
+tqdm==4.70.1
+pillow==10.2.0

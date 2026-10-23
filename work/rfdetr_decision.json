@@ -1,0 +1,12 @@
+{
+ "keep_rfdetr": false,
+ "baseline_held_out": 0.47517103356042567,
+ "with_rfdetr_held_out": 0.46443492901912775,
+ "delta": -0.01073610454129792,
+ "params_with_rfdetr": {
+  "conf_thr": 0.3,
+  "mode": "union_cc",
+  "grow": -1,
+  "min_area": 150
+ }
+}
